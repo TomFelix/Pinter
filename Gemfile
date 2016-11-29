@@ -17,6 +17,14 @@ gem 'devise'
 
 gem "paperclip", "~> 5.0.0"
 
+gem 'jquery-turbolinks'
+
+gem 'masonry-rails'
+
+gem 'will_paginate', '~> 3.1.0'
+
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
