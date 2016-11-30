@@ -6,9 +6,9 @@
 				<%= @pin.description %><br/>
 				<br/><%= @pin.user.name %><br/>
 				<% if @pin.user == current_user %>
-					<%= link_to 'Edit', edit_pin_path(@pin) %>
+					<%= link_to 'Edit', edit_pin_path(@pin), class: 'btn btn-info' %>
 				<% end %>
-				<%= link_to 'Back', pins_path %>
+				<%= link_to 'Back', pins_path, class: 'btn btn-primary' %>
 			</div>
 		</div>
 	</div>
